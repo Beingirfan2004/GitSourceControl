@@ -28,7 +28,7 @@ struct ContentView: View {
 
 extension ContentView {
     private var subscribeButton: some View {
-        Button("Subscribe") {
+        Button("Subscribe Now") {
             
         }
         .buttonStyle(.borderedProminent)
