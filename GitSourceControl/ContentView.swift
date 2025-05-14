@@ -18,7 +18,7 @@ struct ContentView: View {
             Button("Click Me!") {
                 
             }
-            .buttonStyle(.borderedProminent)
+            .buttonStyle(.bordered)
             Button("Subscribe") {
                 
             }
