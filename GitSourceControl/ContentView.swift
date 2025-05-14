@@ -14,15 +14,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Swiftful Thinking!")
+            clickMeButton
+            subscribeButton
             
-            Button("Click Me!") {
-                
-            }
-            .buttonStyle(.bordered)
-            Button("Subscribe") {
-                
-            }
-            .buttonStyle(.borderedProminent)
         }
         .padding()
     }
@@ -30,4 +24,20 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+}
+
+extension ContentView {
+    private var subscribeButton: some View {
+        Button("Subscribe") {
+            
+        }
+        .buttonStyle(.borderedProminent)
+    }
+
+    private var clickMeButton: some View {
+        Button("Click Me!") {
+            
+        }
+        .buttonStyle(.bordered)
+    }
 }
