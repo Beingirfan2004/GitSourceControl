@@ -19,6 +19,10 @@ struct ContentView: View {
                 
             }
             .buttonStyle(.borderedProminent)
+            Button("Subscribe") {
+                
+            }
+            .buttonStyle(.borderedProminent)
         }
         .padding()
     }
