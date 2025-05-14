@@ -9,12 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var title: String = "First Title"
+    @State var title: String = "Second Title"
     
     var body: some View {
         VStack {
             Text("Screen 2")
             Text("Some random text")
+            Text("another random text")
+            
+            RoundedRectangle(cornerRadius: 14)
+                .fill(LinearGradient(colors: [.blue, .purple, .pink], startPoint: .topLeading, endPoint: .bottomTrailing))
+                .padding()
         }
     }
 }

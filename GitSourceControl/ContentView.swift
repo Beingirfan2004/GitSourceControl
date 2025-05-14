@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Swiftful Thinking!")
             clickMeButton
             subscribeButton
+            Rectangle()
             
         }
         .padding()
