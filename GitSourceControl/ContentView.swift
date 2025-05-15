@@ -23,7 +23,7 @@ struct ContentView: View {
                                     .font(.largeTitle)
                                     .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
                             }
-                            Text("Swiftful Thinking!")
+                            Text("Swiftful Thinking")
                             clickMeButton
                         }
                         
