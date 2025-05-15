@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: "house.fill")
+                Image(systemName: "bolt.fill")
                     .font(.largeTitle)
                     .foregroundStyle(.tint)
                 
