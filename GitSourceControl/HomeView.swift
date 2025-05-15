@@ -14,6 +14,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             Text("Screen 2")
+            Text("Hello")
             RoundedRectangle(cornerRadius: 14)
                 .fill(LinearGradient(colors: [.blue, .purple, .pink], startPoint: .topLeading, endPoint: .bottomTrailing))
                 .padding()
