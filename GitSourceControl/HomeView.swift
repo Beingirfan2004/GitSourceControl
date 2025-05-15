@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var title: String = "Second Title"
+    @State var title: String = "Hello World!"
     
     var body: some View {
         VStack {
