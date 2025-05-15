@@ -15,7 +15,7 @@ struct ContentView: View {
                     ForEach(0..<5) { index in
                         VStack {
                             HStack {
-                                Image(systemName: "magnifyingglass")
+                                Image(systemName: "globe")
                                     .font(.largeTitle)
                                     .foregroundStyle(.tint)
                                 
@@ -23,8 +23,8 @@ struct ContentView: View {
                                     .font(.largeTitle)
                                     .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
                             }
-                            Text("Swiftful Thinking!")
-                            clickMeButton
+                            Text("Swiftful Thinking")
+                            subscribeButton
                         }
                         
                     }
