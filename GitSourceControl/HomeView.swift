@@ -17,7 +17,7 @@ struct HomeView: View {
             Text("Hello")
             Text("Hello again")
             RoundedRectangle(cornerRadius: 14)
-                .fill(LinearGradient(colors: [.blue, .purple, .pink], startPoint: .topLeading, endPoint: .bottomTrailing))
+                .fill(LinearGradient(colors: [.blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing))
                 .padding()
         }
     }
