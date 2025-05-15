@@ -15,7 +15,7 @@ struct ContentView: View {
                     ForEach(0..<5) { index in
                         VStack {
                             HStack {
-                                Image(systemName: "magnifyingglass")
+                                Image(systemName: "globe")
                                     .font(.largeTitle)
                                     .foregroundStyle(.tint)
                                 
