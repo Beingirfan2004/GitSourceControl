@@ -24,6 +24,7 @@ struct ContentView: View {
             clickMeButton
             subscribeButton
             Rectangle()
+            Rectangle()
             
         }
         .padding()
