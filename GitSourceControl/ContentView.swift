@@ -10,21 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HStack {
-                Image(systemName: "heart.fill")
-                    .font(.largeTitle)
-                    .foregroundStyle(.tint)
-                
-                Image(systemName: "flame.fill")
-                    .font(.largeTitle)
-                    .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
+            ScrollView(.vertical) {
+                VStack {
+                    ForEach(0..<20) { index in
+                        Text("\(index) Yo!")
+                    }
+                }
             }
-            
-            Text("Swiftful Thinking!")
-            clickMeButton
-            subscribeButton
-            Rectangle()
-            Rectangle()
             
         }
         .padding()
