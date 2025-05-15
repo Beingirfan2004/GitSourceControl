@@ -13,10 +13,24 @@ struct ContentView: View {
             ScrollView(.vertical) {
                 VStack {
                     ForEach(0..<20) { index in
-                        Text("\(index) Yo!")
+                        HStack {
+                            Image(systemName: "globe")
+                                .font(.largeTitle)
+                                .foregroundStyle(.tint)
+                            
+                            Image(systemName: "flame.fill")
+                                .font(.largeTitle)
+                                .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
+                        }
                     }
                 }
             }
+            
+            Text("Some new title")
+            clickMeButton
+//            subscribeButton
+            Rectangle()
+            Rectangle()
             
         }
         .padding()
