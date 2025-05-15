@@ -24,7 +24,7 @@ struct ContentView: View {
                                     .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
                             }
                             Text("Swiftful Thinking")
-                            clickMeButton
+                            subscribeButton
                         }
                         
                     }
