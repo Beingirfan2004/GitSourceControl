@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: "heart.fill")
+                Image(systemName: "globe")
                     .font(.largeTitle)
                     .foregroundStyle(.tint)
                 
@@ -20,9 +20,9 @@ struct ContentView: View {
                     .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
             }
             
-            Text("Swiftful Thinking!")
+            Text("Some new title")
             clickMeButton
-            subscribeButton
+//            subscribeButton
             Rectangle()
             Rectangle()
             
