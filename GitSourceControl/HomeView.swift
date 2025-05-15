@@ -21,6 +21,9 @@ struct HomeView: View {
                 .fill(LinearGradient(colors: [.blue, .purple, .pink], startPoint: .topLeading, endPoint: .bottomTrailing))
                 .padding()
         }
+        .onAppear {
+            // send analytics
+        }
     }
 }
 
