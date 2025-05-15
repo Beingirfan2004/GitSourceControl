@@ -13,7 +13,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            Text("Screen 2")
+            Text("Home Screen")
             Text("Hello")
             Text("Hello again")
             RoundedRectangle(cornerRadius: 14)
