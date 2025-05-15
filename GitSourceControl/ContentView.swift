@@ -10,28 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            ScrollView(.vertical) {
+            ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    ForEach(0..<20) { index in
-                        HStack {
-                            Image(systemName: "globe")
-                                .font(.largeTitle)
-                                .foregroundStyle(.tint)
-                            
-                            Image(systemName: "flame.fill")
-                                .font(.largeTitle)
-                                .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
+                    ForEach(0..<5) { index in
+                        VStack {
+                            HStack {
+                                Image(systemName: "magnifyingglass")
+                                    .font(.largeTitle)
+                                    .foregroundStyle(.tint)
+                                
+                                Image(systemName: "flame.fill")
+                                    .font(.largeTitle)
+                                    .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
+                            }
+                            Text("Some new title")
+                            clickMeButton
                         }
+                        
                     }
                 }
             }
-            
-            Text("Some new title")
-            clickMeButton
-//            subscribeButton
-            Rectangle()
-            Rectangle()
-            
         }
         .padding()
     }
