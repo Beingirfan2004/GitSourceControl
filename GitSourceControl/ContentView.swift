@@ -10,9 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
-                .font(.largeTitle)
-                .foregroundStyle(.tint)
+            HStack {
+                Image(systemName: "house.fill")
+                    .font(.largeTitle)
+                    .foregroundStyle(.tint)
+                
+                Image(systemName: "flame.fill")
+                    .font(.largeTitle)
+                    .foregroundStyle(LinearGradient(colors: [.yellow, .orange, .red], startPoint: .top, endPoint: .bottom))
+            }
+            
             Text("Swiftful Thinking!")
             clickMeButton
             subscribeButton
